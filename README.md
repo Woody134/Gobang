@@ -27,9 +27,9 @@
 游戏结束的判断：遍历'l', 'lt', 't', 'rt'，'r', 'rb', 'b', 'lb'八个方向，统计这八个方向上连续相同棋子数量，大于4时游戏结束。
 ### Record
 用两个堆存储游戏记录，实现悔棋与撤销悔棋。
-###Tip
+### Tip
 实现弹出框和选择框
-##gobang.js
+## gobang.js
 包含drawNode,drawGrid,initGame等方法，实现了绘制棋子，棋盘，初始化游戏的功能，在支持canvas的浏览器中采用canvas进行绘制，在不支持canvas的浏览器中采用DOM方法进行实现。
  
   
