@@ -1,6 +1,7 @@
 # Gobang
 五子棋游戏
 # 文件介绍
+文件主要包括gobang.html common.js gobang.js 和 common.css
 ## common.js
 文件内包含四个对象：Board, Record, Tip, Game
 ### Board
@@ -31,5 +32,3 @@
 实现弹出框和选择框
 ## gobang.js
 包含drawNode,drawGrid,initGame等方法，实现了绘制棋子，棋盘，初始化游戏的功能，在支持canvas的浏览器中采用canvas进行绘制，在不支持canvas的浏览器中采用DOM方法进行实现。
- 
-  
