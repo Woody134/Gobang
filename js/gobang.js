@@ -49,7 +49,7 @@ window.onload = function () {
      * num num 网格的数量
      * return num 棋盘网格每个格子的宽度/高度
      */
-    function drawGride(el,num) {
+    function drawGrid(el,num) {
         if (supportCanvas) {
             var gridEl = document.querySelector('#demo-canvas');
             num = num || 18;
@@ -176,7 +176,7 @@ window.onload = function () {
             el.innerHTML = ''; 
 
         }
-        return drawGride(el,num);
+        return drawGrid(el,num);
     }
 
     EventUtil.addHandler(document.getElementById('forgetIt'), 'click', forgetIt);
