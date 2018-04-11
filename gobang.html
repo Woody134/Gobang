@@ -20,7 +20,14 @@
         <a id='rememberIt' class='demo-remember'>撤销悔棋</a>
     </div>
     <script src='./js/common.js'></script>
-    <script src='./js/gobang.js'></script>
+    <script>
+        if (document.createElement('canvas').getContext) {
+            document.write("<script src=\".\/js\/canvas.js\"><\/script>");
+        }
+        else {
+            document.write("<script src=\".\/js\/dom.js\"><\/script>");
+        }
+    </script>
 </body>
 
 </html>
